@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(18, 13, 24);
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 196, 0);
+}
+
+
+.head{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(35, 31, 39);
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+}
+.img1_head{
+    left: 70%;
+    top: 50%;
+    height: 80%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.img2_head{
+    left: 26%;
+    top: 12%;
+    height: 80%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.text1_head{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 50%;
+    top: 35px;
+    transform: translate(-50%,0px);
+
+}
+.text2_head{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%,0px);
+}
+
+
+.div_prod{
+    width: 23%;
+    height: 69%;
+    position: absolute;
+    left: 20%;
+    top: 180px;
+    transform: translate(-50%,0px);
+    background-color: rgb(35, 31, 39);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.img_prod{
+    left: 50%;
+    width: 90%;
+    top: -5%;
+    transform: translate(-50%,0px);
+    position: absolute;
+}
+.P_prod{
+    position: absolute;
+    width: 78%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0px);
+    font-size: 25px;
+    color: rgb(90, 90, 90);
+}
+.div_text_prod{
+    width: 85%;
+    height: 15%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,0px);
+    position: absolute;
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+.textp_prod{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%,0px);
+    color: rgb(35, 31, 39);
+}
+.texta_prod{
+    width: 85%;
+    height: 15%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,0px);
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 100%;
+}
+
+
+.div_cli{
+    width: 23%;
+    height: 69%;
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    transform: translate(-50%,0px);
+    background-color: rgb(35, 31, 39);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.img_cli{
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%,0px);
+    width: 70%;
+    height: 45%;
+    position: absolute;
+}
+.P_cli{
+    position: absolute;
+    width: 65.5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0px);
+    font-size: 25px;
+    color: rgb(90, 90, 90);
+}
+.div_text_cli{
+    width: 85%;
+    height: 15%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,0px);
+    position: absolute;
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+.textp_cli{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%,0px);
+    color: rgb(35, 31, 39);
+}
+.texta_cli{
+    width: 85%;
+    height: 15%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,0px);
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 100%;
+}
+
+
+.div_cont{
+    width: 23%;
+    height: 69%;
+    position: absolute;
+    left: 80%;
+    top: 180px;
+    transform: translate(-50%,0px);
+    background-color: rgb(35, 31, 39);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.img_cont{
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,0px);
+    width: 70%;
+    height: 45%;
+    position: absolute;
+}
+.P_cont{
+    position: absolute;
+    width: 46.5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0px);
+    font-size: 25px;
+    color: rgb(90, 90, 90);
+}
+.div_text_cont{
+    width: 85%;
+    height: 15%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,0px);
+    position: absolute;
+    background-color: rgb(255, 196, 0);
+    border-radius: 20px;
+}
+.textp_cont{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%,0px);
+    color: rgb(35, 31, 39);
+}
+.texta_cont{
+    width: 85%;
+    height: 15%;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,0px);
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 100%;
+}

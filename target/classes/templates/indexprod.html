@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud produto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark text-white">
+
+    <div class="d-block col-sm-12 p-2 bg-secondary text-white text-center">
+        <h1>ELETROSELLS</h1>
+        <h2>vendemos produtos eletronicos</h2>
+    </div>
+    <div style="height: 10px;" class="d-block col-sm-12 text-center"></div>
+
+    <div class="container text-center">
+        <div class="row">
+
+            <div class="col-sm-4 bg-dark"></div>
+
+            <div style="height: 520px;">
+                <div class="h-100 col rounded-lg bg-secondary text-white text-center">
+                    <h1>produto</h1>
+                    <div style="height: 395px;">
+                        
+                        <div class="bg-dark h-100 py-1 rounded-lg" th:if="${listaprod.size() > 0}">
+                            <div class="row my-3 mx-1" th:each="produto:${listaprod}">
+                                <div class="col">
+                                    <a class=" btn btn-primary" th:href="@{/mostrarprod/{id}(id=${produto.id})}"
+                                        th:text="${produto.nome}"></a>
+                                </div>
+
+                                <div class="col">
+                                    <a class="btn btn-success"
+                                        th:href="@{/editarprod/{id}(id=${produto.id})}">editar</a>
+                                </div>
+
+                                <div class="col">
+                                    <a class="btn btn-danger"
+                                        th:href="@{/deletarprod/{id}(id=${produto.id})}">deletar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <a class="col mx-3 btn btn-primary" href="/cadastrarprod">cadastrar</a>
+                            <a class="col mx-3 btn btn-primary" href="/">home</a>
+                        </div>
+                        <div class="d-block text-secondary">.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
